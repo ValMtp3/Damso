@@ -1,0 +1,124 @@
+header{
+    font-size: 100px; ;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(245,239,220);
+    background: linear-gradient(to bottom left, #000, #333);
+    background-attachment: fixed; 
+    text-align: center;
+    font-weight: lighter;
+}
+
+.li-li{
+    text-align: left;
+    flex: 1 1 auto;
+}
+
+.li-li>ol{
+    list-style: none;
+}
+
+.li-qalf{
+    text-align: left;
+    flex: 1 1 auto;
+}
+
+.li-qalf>ol{
+    list-style: none;
+}
+
+.li-ip{
+    text-align: left; 
+    flex: 1 1 auto;
+}
+
+.li-ip > ol {
+    list-style: none;
+}
+
+.li-li>ol>li:nth-child(odd) {
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.li-ip>ol>li:nth-child(odd) {
+    background-color: grey;
+    border-radius: 3px;
+}
+.li-qalf>ol>li:nth-child(odd) {
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.Album-redir img{
+   border-radius: 10px;
+}
+
+
+.bouttonA{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    border-color: transparent;
+    color: rgb(245,239,220);
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 4px;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.Ipseite_desc{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    line-height: 30px;
+}
+
+.Lithopedion_desc{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    line-height: 30px;
+}
+
+.QALF_desc{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    line-height: 30px;
+}
+
+@media (min-width:992px) {
+    .flex-ip{
+        display: flex;
+        align-items: center;
+    }
+    
+    .flex-li{
+        display: flex;
+        align-items: center;
+    }
+    
+    .flex-qalf{
+        display: flex;
+        align-items: center;
+    }    
+    
+}
